@@ -1,0 +1,177 @@
+.navbar-light{
+    background-color: white;
+}
+.navbar{
+    left: 60px;
+    width: 96%;
+    position: relative;
+
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    background-color: red;
+    margin-right: 2px;
+    border-radius: 8px;
+    position: relative;
+    left: 80%;
+}
+/*ul{*/
+/*    float: right;*/
+/*    background-color: red;*/
+/*    margin-top: 5px;*/
+/*    display: block;*/
+
+/*}*/
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    /*padding: 14px 16px;*/
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+ /*sidebar*/
+  body {font-family: "Lato", sans-serif;}
+
+.sidebar {
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    background-color:orangered;
+    overflow-x: hidden;
+    padding-top: 16px;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 7px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: block;
+    top: 50px;
+    -webkit-box-sizing: border-box
+
+
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+
+/* buttons*/
+ .button {
+     border: none;
+     color: white;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     border-radius: 8px;
+     font-weight: bold;
+     position: relative;
+    left: 5%;
+
+
+ }
+
+.button:hover {
+    background:linear-gradient(to bottom, #e8faf8 5%, #7892c2 100%);
+    background-color:#476e9e;
+}
+.button:active {
+    position:relative;
+    top:1px;
+}
+
+
+.button1 {background-color: #c229c3;padding: 6px 40px;} /* Green */
+.button2 {background-color: #4d62a7;padding: 6px 40px;} /* Blue */
+.button3{background-color: #fac507;padding: 32px 16px;}
+.button4{background-color: #febcf9;padding: 32px 25px;}
+.button5{background-color: #ee3b9f;padding: 32px 30px;}
+.button6{background-color: #ec70fc;padding: 32px 16px;}
+.button7{background-color: #9a19c1;padding: 32px 16px;}
+.button8{background-color: #ff8b00;padding: 32px 16px;}
+.button9{background-color: #ec70fc;padding: 32px 16px;}
+
+            /*Card*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    width: 64%;
+    height: 80%;
+    border: solid #fefefe;
+    background-color: white;
+    position: relative;
+    right:18%;
+}
+.card-footer{
+    padding: 12px;
+    color: black;
+    background-color: white;
+    text-align: left;
+    width: 100%;
+    font-size: 18px;
+    position: relative;
+    height: 15%;
+    border:  solid #4299b3;
+
+}
+.card-body{
+    position: relative;
+    width: 100%;
+    height: 85%;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+        /*buttons group*/
+.btn-group button {
+    background-color: #ffffff; /* white background */
+    border: 1px solid green; /* Green border */
+    color: black; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
